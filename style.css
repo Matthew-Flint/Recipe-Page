@@ -34,3 +34,11 @@ body {
     width: 500px;
     margin: 0 auto;
 }
+.nutrition-table {
+    margin: 0 auto;
+}
+.nutrition-table tr {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+}

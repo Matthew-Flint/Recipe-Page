@@ -60,6 +60,10 @@ body {
 li {
     margin: 10px;
 }
+li::marker {
+    color: var(--Brown-800);
+    font-weight: 800;
+}
 hr {
     border: 1px solid black;
     width: 100%;

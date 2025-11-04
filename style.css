@@ -42,6 +42,10 @@ body {
 .recipe-heading, .sub-heading {
     font-family: 'Young Serif';
 }
+.prep-heading {
+    color: var(--Rose-800);
+    font-size: 15px;
+}
 .sub-heading {
     color: var(--Brown-800);
 }
@@ -51,6 +55,14 @@ body {
     border-radius: 15px;
     width: 100%;
     padding: 15px;
+    font-size: 12px;
+}
+li {
+    margin: 10px;
+}
+hr {
+    border: 1px solid black;
+    width: 100%;
 }
 .nutrition-table {
     margin: 0 auto;
@@ -59,11 +71,4 @@ body {
     display: flex;
     justify-content: space-between;
     gap: 10px;
-}
-li {
-    margin: 10px;
-}
-hr {
-    border: 1px solid black;
-    width: 100%;
 }

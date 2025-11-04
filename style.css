@@ -42,20 +42,22 @@ body {
 .recipe-heading, .sub-heading {
     font-family: 'Young Serif';
 }
-.prep-heading {
+.prep-heading, .rose {
     color: var(--Rose-800);
     font-size: 15px;
 }
 .sub-heading {
     color: var(--Brown-800);
 }
-
+.bold {
+    font-weight: 800;
+}
 .prep-card {
     background-color: var(--Rose-50);
     border-radius: 15px;
-    width: 100%;
-    padding: 15px;
-    font-size: 12px;
+    width: 90%;
+    padding: 25px;
+    font-size: 15px;
 }
 li {
     margin: 10px;
